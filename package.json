@@ -1,0 +1,36 @@
+{
+  "name": "unidad-2-back",
+  "version": "2.0.0",
+  "main": "servidor.js",
+  "private": true,
+  "scripts": {
+    "start": "node servidor.js",
+    "dev": "nodemon servidor.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "atlas",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Backend moderno para el frontend de unidad-2 con MongoDB Atlas y Node 25",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
